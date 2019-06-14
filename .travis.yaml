@@ -1,3 +1,5 @@
 language: go
 go:
  - "stable"
+script:
+ - go run hello.go
